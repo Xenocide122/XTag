@@ -77,7 +77,7 @@ overflow: hidden;
 	position: absolute;
 	right: 6px;
 	top: 12px;
-	background: url(https://s3.amazonaws.com/static.turntable.fm/images/playlist/queue-icons.png) 0px -17px;
+	background: url('https://s3.amazonaws.com/static.turntable.fm/images/playlist/queue-icons.png') 0px -17px;
 }
 #ttx-close-tags:hover{
 	opacity: 1;
@@ -123,7 +123,7 @@ overflow: hidden;
 #playlist .song .goBottom{
 	right: 5px;
 	bottom: 5px;
-	background: url(http://josiwales.com/images/queue_down.png) 0 0px;
+	background: url('http://josiwales.com/xtag/images/queue_down.png') 0 0px;
 }
 #playlist .song .addTag{
 	right: 25px;
@@ -147,7 +147,7 @@ overflow: hidden;
 	top: 0px;
 	height: 17px;
 	width: 17px;
-	background: url(http://josiwales.com/images/tag.png) 0 0px;
+	background: url('http://josiwales.com/xtag/images/tag.png') 0 0px;
 }
 #playlist .song.selected .addTag:after{
 	content: '';
@@ -156,7 +156,7 @@ overflow: hidden;
 	top: 0px;
 	height: 17px;
 	width: 17px;
-	background: url(http://josiwales.com/images/tag.png) 0 0px;
+	background: url('http://josiwales.com/xtag/images/tag.png') 0 0px;
 }
 .playlist-open-options:after{
 	content: '';
@@ -165,7 +165,7 @@ overflow: hidden;
 	top: 0px;
 	height: 17px;
 	width: 17px;
-	background: url(http://josiwales.com/images/window_icons_inverted.png) -1px -19px;
+	background: url('http://josiwales.com/xtag/images/window_icons_inverted.png') -1px -19px;
 }
 .playlist-open-options{
     background: #000 !important;
@@ -177,7 +177,7 @@ overflow: hidden;
     opacity: 1;
 }
 .playlist-go-top{
-	background: url(https://s3.amazonaws.com/static.turntable.fm/images/playlist/queue-icons.png) 0px 17px !important;
+	background: url('https://s3.amazonaws.com/static.turntable.fm/images/playlist/queue-icons.png') 0px 17px !important;
 	opacity: .5;
 	width: 17px !important;
 	height: 17px !important;
@@ -198,7 +198,7 @@ overflow: hidden;
 	top: 0px;
 	height: 17px;
 	width: 17px;
-	background: url(http://josiwales.com/images/tag_dark.png) 0 0px;
+	background: url('http://josiwales.com/xtag/images/tag_dark.png') 0 0px;
 }
 
 #playlist .song.selected {
@@ -232,7 +232,7 @@ overflow: hidden;
 	top: 0px;
 	height: 22px;
 	width: 22px;
-	background: url(http://josiwales.com/images/tag.png) no-repeat 2px 2px;
+	background: url('http://josiwales.com/xtag/images/tag.png') no-repeat 2px 2px;
 }
 
 #playlist .songs.tagging .song.set .addTag:after{
@@ -242,7 +242,7 @@ overflow: hidden;
 	top: 0px;
 	height: 22px;
 	width: 22px;
-	background: url(http://josiwales.com/images/tag_dark.png) no-repeat 2px 2px;
+	background: url('http://josiwales.com/xtag/images/tag_dark.png') no-repeat 2px 2px;
 }
 #playlist .songs.tagging .song.selected .addTag:after{
 	content: '';
@@ -251,7 +251,7 @@ overflow: hidden;
 	top: 0px;
 	height: 22px;
 	width: 22px;
-	background: url(http://josiwales.com/images/tag.png) no-repeat 2px 2px;
+	background: url('http://josiwales.com/xtag/images/tag.png') no-repeat 2px 2px;
 }
 #playlist .songs.tagging .song .addTag:hover:after{
 	content: '';
@@ -260,7 +260,7 @@ overflow: hidden;
 	top: 0px;
 	height: 17px;
 	width: 17px;
-	background: url(http://josiwales.com/images/tag_dark.png) 2px 2px;
+	background: url('http://josiwales.com/xtag/images/tag_dark.png') 2px 2px;
 }
 #playlist .songs.tagging .song.selected .addTag:hover:after{
 	content: '';
@@ -269,7 +269,7 @@ overflow: hidden;
 	top: 0px;
 	height: 22px;
 	width: 22px;
-	background: url(http://josiwales.com/images/tag.png) no-repeat 2px 2px;
+	background: url('http://josiwales.com/xtag/images/tag.png') no-repeat 2px 2px;
 }
 #playlist .song:hover .goBottom, #playlist .song:hover .addTag{
 	display: block;
@@ -336,7 +336,7 @@ overflow: hidden;
 	height: 7px;
 	right: 6px;
 	top: 13px;
-	background: url(https://s3.amazonaws.com/static.turntable.fm/images/room/header-button-sprite.png) -25px -77px no-repeat;
+	background: url('https://s3.amazonaws.com/static.turntable.fm/images/room/header-button-sprite.png') -25px -77px no-repeat;
 }
 .hover #ttx-settings-button::after {
 	background-position: -25px -84px;
@@ -427,7 +427,7 @@ overflow: hidden;
 	top:0px;
 	left:0px;
 	background-size:22px 22px;
-	background-image: url(http://josiwales.com/images/laptop_icon.png);
+	background-image: url('http://josiwales.com/xtag/images/laptop_icon.png');
 }
 #ttx-dock-menu{
     position: absolute;
@@ -524,7 +524,7 @@ overflow: hidden;
 	margin-top: 9px;
 	border-radius: 3px;
 	margin-right:2px;
-	background-image:url(https://s3.amazonaws.com/static.turntable.fm/images/pm/window_icons.png);
+	background-image:url('https://s3.amazonaws.com/static.turntable.fm/images/pm/window_icons.png');
 	background-position: -45px 1px;
 	width: 20px;
 	background-size: auto;
@@ -541,7 +541,7 @@ overflow: hidden;
 	margin-right:3px;
 	background-repeat:no-repeat;
 	margin-top: 9px;
-	background-image:url(http://josiwales.com/images/minus.png);
+	background-image:url('http://josiwales.com/xtag/images/minus.png');
 	background-position: 2px 2px;
 	background-size: 16px 16px;
 	width: 20px;
@@ -584,7 +584,7 @@ overflow: hidden;
 	height: 30px;
 	border: 0;
 	cursor: pointer;
-	background: url(https://s3.amazonaws.com/static.turntable.fm/images/room/button_sprite.png) -33px 0 no-repeat;
+	background: url('https://s3.amazonaws.com/static.turntable.fm/images/room/button_sprite.png') -33px 0 no-repeat;
 }
 
 
@@ -895,7 +895,7 @@ overflow: hidden;
 	height: 16px;
 	left: 6px;
 	top: 6px;
-	background: url(http://josiwales.com/images/speed_icon.png) 0px 0px no-repeat;
+	background: url('http://josiwales.com/xtag/images/speed_icon.png') 0px 0px no-repeat;
 }
 #ttx-autodj-button{
 	cursor:pointer;
@@ -910,7 +910,7 @@ overflow: hidden;
 	height: 16px;
 	left: 6px;
 	top: 2px;
-	background: url(http://josiwales.com/images/record.png) 0px 0px no-repeat;
+	background: url('http://josiwales.com/xtag/images/record.png') 0px 0px no-repeat;
 }
 #ttx-laptop-sync-button{
 	cursor:pointer;
@@ -922,7 +922,7 @@ overflow: hidden;
 	height: 16px;
 	left: 7px;
 	top: 7px;
-	background: url(http://josiwales.com/images/clock.png) 0px 0px no-repeat;
+	background: url('http://josiwales.com/xtag/images/clock.png') 0px 0px no-repeat;
 }
 #ttx-autobop-button::before{
 	content: '';
@@ -931,7 +931,7 @@ overflow: hidden;
 	height: 16px;
 	left: 7px;
 	top: 6px;
-	background: url(http://josiwales.com/images/up_black.png) 0px 0px no-repeat;
+	background: url('http://josiwales.com/xtag/images/up_black.png') 0px 0px no-repeat;
 }
 #ttx-laptop-speed-button.reverse::before{
 	content: '';
@@ -940,7 +940,7 @@ overflow: hidden;
 	height: 16px;
 	left: 6px;
 	top: 6px;
-	background: url(http://josiwales.com/images/speed_icon_reversed.png) 0px 0px no-repeat;
+	background: url('http://josiwales.com/xtag/images/speed_icon_reversed.png') 0px 0px no-repeat;
 }
 
 #ttx-laptop-menu-button::before{
@@ -950,7 +950,7 @@ overflow: hidden;
 	height: 15px;
 	left: 6px;
 	top: 8px;
-	background: url(http://josiwales.com/images/laptop_icon.png) -7px -9px no-repeat;
+	background: url('http://josiwales.com/xtag/images/laptop_icon.png') -7px -9px no-repeat;
 }
 #ttx-laptop-menu-container{
 	right: 115px;
@@ -975,7 +975,7 @@ overflow: hidden;
 	height: 30px !important;
 	left: 0px !important;
 	top: 0px !important;
-	background: url(https://raw.github.com/DubbyTT/Auto-Awexomer/master/images/lightbulb4.png) 0px 0px no-repeat !important;
+	background: url('https://raw.github.com/DubbyTT/Auto-Awexomer/master/images/lightbulb4.png') 0px 0px no-repeat !important;
 	background-size: contain !important;
 }
 #ttx-light-switch::before{
@@ -985,7 +985,7 @@ overflow: hidden;
 	height: 30px;
 	left: 0px;
 	top: 0px;
-	background: url(https://raw.github.com/DubbyTT/Auto-Awexomer/master/images/lightbulb2.png) 0px 0px no-repeat;
+	background: url('https://raw.github.com/DubbyTT/Auto-Awexomer/master/images/lightbulb2.png') 0px 0px no-repeat;
 	background-size: contain;
 
 }
@@ -1019,7 +1019,7 @@ overflow: hidden;
 	width: 12px;
 	height: 12px;
 	padding: 4px;
-	background: url(https://s3.amazonaws.com/static.turntable.fm/images/pm/window_icons.png);
+	background: url('https://s3.amazonaws.com/static.turntable.fm/images/pm/window_icons.png');
 	background-repeat: no-repeat;
 	background-position: 0px -18px;
 	border-radius: 3px;
@@ -1054,7 +1054,7 @@ overflow: hidden;
 	left: 0px;
 	width: 100%;
 	height: 100%;
-	background-image: url(http://josiwales.com/images/clipboard.png);
+	background-image: url('http://josiwales.com/xtag/images/clipboard.png');
 	background-position: 3px 3px;
 	background-size: 14px 14px;
 	background-repeat: no-repeat;
@@ -1097,7 +1097,7 @@ overflow: hidden;
 	height: 46px;
 	
 	right: 115px;
-	background-image: url(http://josiwales.com/images/modal_copy.png);
+	background-image: url('http://josiwales.com/xtag/images/modal_copy.png');
 }
 #ttx-laptop-paste{
 	position:absolute;
@@ -1105,7 +1105,7 @@ overflow: hidden;
 	height: 46px;
 	
 	right: 65px;
-	background-image: url(http://josiwales.com/images/modal_paste.png);
+	background-image: url('http://josiwales.com/xtag/images/modal_paste.png');
 }
 #ttx-laptop-cut{
 	position: absolute;
@@ -1113,7 +1113,7 @@ overflow: hidden;
 	height: 46px;
 	
 	left: 5px;
-	background-image: url(http://josiwales.com/images/modal_cut.png);
+	background-image: url('http://josiwales.com/xtag/images/modal_cut.png');
 }
 #ttx-laptop-end{
 	position: absolute;
@@ -1121,7 +1121,7 @@ overflow: hidden;
 	height: 46px;
 
 	right: 206px;
-	background-image: url(http://josiwales.com/images/modal_end.png);
+	background-image: url('http://josiwales.com/xtag/images/modal_end.png');
 }
 #ttx-laptop-preview{
 	float: left;
@@ -1129,10 +1129,10 @@ overflow: hidden;
 	margin-left: 5px;
 	width: 45px;
 	height: 46px;
-	background-image: url(http://josiwales.com/images/modal_play.png);
+	background-image: url('http://josiwales.com/xtag/images/modal_play.png');
 }
 #ttx-laptop-preview.stop{
-	background-image: url(http://josiwales.com/images/modal_stop.png);
+	background-image: url('http://josiwales.com/xtag/images/modal_stop.png');
 }
 #ttx-laptop-save{
 	float: left;
@@ -1140,7 +1140,7 @@ overflow: hidden;
 	margin-left: 5px;
 	width: 45px;
 	height: 46px;
-	background-image: url(http://josiwales.com/images/modal_save.png);
+	background-image: url('http://josiwales.com/xtag/images/modal_save.png');
 }
 #ttx-laptop-delete{
 	float: left;
@@ -1148,7 +1148,7 @@ overflow: hidden;
 	margin-left: 5px;
 	width: 45px;
 	height: 46px;
-	background-image: url(http://josiwales.com/images/modal_delete.png);
+	background-image: url('http://josiwales.com/xtag/images/modal_delete.png');
 }
 #ttx-laptop-start{
 	position: absolute;
@@ -1156,7 +1156,7 @@ overflow: hidden;
 	height: 46px;
 	
 	left: 215px;
-	background-image: url(http://josiwales.com/images/modal_start.png);
+	background-image: url('http://josiwales.com/xtag/images/modal_start.png');
 }
 #ttx-laptop-insert{
 	position: absolute;
@@ -1164,7 +1164,7 @@ overflow: hidden;
 	height: 46px;
 	
 	right: 15px;
-	background-image: url(http://josiwales.com/images/modal_insert.png);
+	background-image: url('http://josiwales.com/xtag/images/modal_insert.png');
 }
 .ttx-laptop-editor-button{
 	z-index: 999;
