@@ -11,7 +11,7 @@
 .ui-resizable-ne { cursor: ne-resize; width: 9px; height: 9px; right: -5px; top: -5px;}
 .ui-dialog .ui-resizable-se { width: 14px; height: 14px; right: 3px; bottom: 3px; }
 .x-head{
-  position: absolute;
+	position: absolute;
 top: 8px;
 left: -4px;
 width: 40px;
